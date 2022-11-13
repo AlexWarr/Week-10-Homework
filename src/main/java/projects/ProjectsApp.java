@@ -58,7 +58,7 @@ public class ProjectsApp {
 				}
 			} catch(Exception e) {
 				System.out.println("\nError: " + e + " Try again");
-				proccessUserSelections();
+				//proccessUserSelections(); had been used for debugging an issue with the menu
 			}
 		}
 		
